@@ -224,8 +224,20 @@ public class MainActivity extends AppCompatActivity {
 
         if (parts.length == 2) {
 
-            double lastPitch = Double.parseDouble(parts[0]);
-            double lastRoll = Double.parseDouble(parts[1]);
+            double lastPitch, lastRoll;
+
+            try {
+
+                lastPitch = Double.parseDouble(parts[0]);
+                lastRoll = Double.parseDouble(parts[1]);
+
+            } catch (Exception e) {
+
+                lastPitch = 0;
+                lastRoll = 0;
+
+            }
+
             updateSensorLabels(lastPitch, lastRoll);
 
         }
