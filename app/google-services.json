@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "22752572221",
+    "firebase_url": "https://face-tracker-7edcb.firebaseio.com",
+    "project_id": "face-tracker-7edcb",
+    "storage_bucket": "face-tracker-7edcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22752572221:android:942dd965f8b8fd3bc70b54",
+        "android_client_info": {
+          "package_name": "com.peninsulaapps.facetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22752572221-j89gojna801vnvmbl0h9ni664rgsn7g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAghoWeM6nioVgo955t3OLXWMC8yaWeGzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22752572221-j89gojna801vnvmbl0h9ni664rgsn7g4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FaceTrak</string>
+    <string name="euler_angle">%1$s: %2$.2f</string>
+
+    <!--    Main Activity-->
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="title_connecting">connecting…</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+</resources>
