@@ -244,9 +244,9 @@ public class MainActivity extends AppCompatActivity {
     private void updateSensorLabels(double eulerAnglePitch, double eulerAngleRoll) {
         runOnUiThread(() -> {
             String yText = getString(R.string.euler_angle,
-                    "Pitch", eulerAnglePitch);
+                    "X", eulerAnglePitch);
             String zText = getString(R.string.euler_angle,
-                    "Roll", eulerAngleRoll);
+                    "Y", eulerAngleRoll);
 
             pitchTextView.setText(yText);
             rollTextView.setText(zText);
